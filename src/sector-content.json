@@ -1,0 +1,71 @@
+{
+  "stationNames": [
+    "MOUTH OF THE WITNESS",
+    "VESPER OSSUARY",
+    "NINTH RECEIVING ORGAN",
+    "THE QUIET EXCHANGE"
+  ],
+  "planetNames": [
+    "Pall",
+    "Chitin",
+    "Hollow Mercy",
+    "Vesper",
+    "The Unremembered"
+  ],
+  "encounters": [
+    {
+      "id": "smuggler-patrol",
+      "role": "patrol",
+      "minDanger": 1,
+      "weight": 4,
+      "countMin": 1,
+      "countMax": 3
+    },
+    {
+      "id": "pirate-interceptors",
+      "role": "ambush",
+      "minDanger": 2,
+      "weight": 3,
+      "countMin": 2,
+      "countMax": 5
+    },
+    {
+      "id": "silent-witness",
+      "role": "stalker",
+      "minDanger": 4,
+      "weight": 1,
+      "countMin": 1,
+      "countMax": 1
+    }
+  ],
+  "hazards": [
+    {
+      "kind": "debris-field",
+      "minDanger": 1,
+      "radius": 900,
+      "strength": 1
+    },
+    {
+      "kind": "ion-cloud",
+      "minDanger": 2,
+      "radius": 650,
+      "strength": 0.6
+    }
+  ],
+  "greetings": [
+    "We counted your heartbeats before you arrived.",
+    "Your vessel contains one more shadow than its manifest.",
+    "Do not look behind the voice.",
+    "We recognize the shape of your hunger."
+  ],
+  "offers": [
+    "The spice remembers the hands that carried it. We have removed the hands.",
+    "Twelve sealed measures. None of them are asleep.",
+    "The cargo is yours if you agree that we have never met."
+  ],
+  "farewells": [
+    "Leave before the second mouth opens.",
+    "We will remember you incorrectly.",
+    "Keep your receiver dark on the inward passage."
+  ]
+}

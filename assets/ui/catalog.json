@@ -1,0 +1,434 @@
+{
+  "hudTop": {
+    "file": "cockpit.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rect": [
+      26,
+      30,
+      1484,
+      129
+    ],
+    "border": 12,
+    "slice": [
+      80,
+      18,
+      80,
+      18
+    ]
+  },
+  "hudBottom": {
+    "file": "cockpit.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rect": [
+      26,
+      191,
+      1484,
+      145
+    ],
+    "border": 12,
+    "slice": [
+      112,
+      20,
+      112,
+      20
+    ]
+  },
+  "radar": {
+    "file": "cockpit.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rect": [
+      26,
+      376,
+      392,
+      521
+    ],
+    "border": 18,
+    "slice": [
+      62,
+      56,
+      62,
+      50
+    ]
+  },
+  "diagnostic": {
+    "file": "cockpit.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rect": [
+      461,
+      377,
+      1049,
+      251
+    ],
+    "border": 16,
+    "slice": [
+      100,
+      24,
+      90,
+      24
+    ]
+  },
+  "notice": {
+    "file": "cockpit.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rect": [
+      460,
+      683,
+      1050,
+      200
+    ],
+    "border": 12,
+    "slice": [
+      120,
+      24,
+      120,
+      24
+    ]
+  },
+  "terminal": {
+    "file": "terminal.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rect": [
+      12,
+      12,
+      1512,
+      1000
+    ],
+    "border": 24,
+    "slice": [
+      125,
+      120,
+      125,
+      120
+    ]
+  },
+  "button": {
+    "file": "controls.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rect": [
+      30,
+      31,
+      710,
+      160
+    ],
+    "border": 14,
+    "slice": [
+      68,
+      28,
+      68,
+      28
+    ]
+  },
+  "buttonSelected": {
+    "file": "controls.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rect": [
+      797,
+      31,
+      712,
+      160
+    ],
+    "border": 14,
+    "slice": [
+      68,
+      28,
+      68,
+      28
+    ]
+  },
+  "buttonPressed": {
+    "file": "controls.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rect": [
+      30,
+      225,
+      710,
+      160
+    ],
+    "border": 14,
+    "slice": [
+      68,
+      30,
+      68,
+      30
+    ]
+  },
+  "buttonDisabled": {
+    "file": "controls.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rect": [
+      797,
+      225,
+      712,
+      160
+    ],
+    "border": 14,
+    "slice": [
+      68,
+      30,
+      68,
+      30
+    ]
+  },
+  "well": {
+    "file": "controls.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rect": [
+      30,
+      431,
+      710,
+      559
+    ],
+    "border": 18,
+    "slice": [
+      60,
+      60,
+      60,
+      48
+    ]
+  },
+  "portrait": {
+    "file": "controls.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rect": [
+      797,
+      431,
+      712,
+      559
+    ],
+    "border": 18,
+    "slice": [
+      68,
+      65,
+      68,
+      80
+    ]
+  },
+  "navigator": {
+    "file": "navigator.png",
+    "size": [
+      1536,
+      1536
+    ],
+    "rect": [
+      0,
+      0,
+      1536,
+      1536
+    ],
+    "border": 1,
+    "slice": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "animation": {
+      "columns": 4,
+      "rows": 4,
+      "frameSize": [
+        384,
+        384
+      ],
+      "idle": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "talk": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "facedancer": {
+    "file": "facedancer.png",
+    "size": [
+      1536,
+      1536
+    ],
+    "rect": [
+      0,
+      0,
+      1536,
+      1536
+    ],
+    "border": 1,
+    "slice": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "animation": {
+      "columns": 4,
+      "rows": 4,
+      "frameSize": [
+        384,
+        384
+      ],
+      "idle": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "talk": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "ghola": {
+    "file": "ghola.png",
+    "size": [
+      1536,
+      1536
+    ],
+    "rect": [
+      0,
+      0,
+      1536,
+      1536
+    ],
+    "border": 1,
+    "slice": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "animation": {
+      "columns": 4,
+      "rows": 4,
+      "frameSize": [
+        384,
+        384
+      ],
+      "idle": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "talk": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "smuggler": {
+    "file": "smuggler.png",
+    "size": [
+      1536,
+      1536
+    ],
+    "rect": [
+      0,
+      0,
+      1536,
+      1536
+    ],
+    "border": 1,
+    "slice": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "animation": {
+      "columns": 4,
+      "rows": 4,
+      "frameSize": [
+        384,
+        384
+      ],
+      "idle": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "talk": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  }
+}

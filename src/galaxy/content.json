@@ -1,0 +1,57 @@
+{
+  "systems": {
+    "frontier": {
+      "planets": 3,
+      "stations": 1,
+      "debrisMultiplier": 0.7,
+      "encounterMultiplier": 1,
+      "encounterWeights": {
+        "smuggler-patrol": 4,
+        "pirate-interceptors": 3,
+        "silent-witness": 1
+      },
+      "hazards": [
+        "debris-field"
+      ]
+    },
+    "haunted": {
+      "planets": 4,
+      "stations": 2,
+      "debrisMultiplier": 1.2,
+      "encounterMultiplier": 1,
+      "encounterWeights": {
+        "smuggler-patrol": 1,
+        "pirate-interceptors": 3,
+        "silent-witness": 4
+      },
+      "hazards": [
+        "debris-field",
+        "ion-cloud"
+      ]
+    }
+  },
+  "hyperlanes": {
+    "contested-lane": {
+      "enemies": [
+        {
+          "kind": "gunner",
+          "weight": 1
+        },
+        {
+          "kind": "rusher",
+          "weight": 2
+        }
+      ],
+      "length": 20000,
+      "width": 1200,
+      "obstacleCount": 36,
+      "encounterCount": 6,
+      "engine": {
+        "cruiseSpeed": 900,
+        "thrust": 1100,
+        "brake": 1000,
+        "drag": 0.35
+      }
+    }
+  }
+}

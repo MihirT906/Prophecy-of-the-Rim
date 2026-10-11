@@ -1,0 +1,26 @@
+{
+  "name": "arena",
+  "version": "1.0.0",
+  "description": "Prophecy of the Rim, a gray-box radial space-smuggling race built on ARENA.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "npm run build && playwright test",
+    "bundle": "npm run build && node scripts/bundle.mjs",
+    "lint:ui": "npm run build && playwright test e2e/raster.spec.ts --grep \"all interface\" --workers=1",
+    "test:gameplay": "vitest run gameplay",
+    "lint:gameplay": "npm run test:gameplay && npm run build && playwright test e2e/gameplay-design.spec.ts --workers=1",
+    "lint:visual": "npm run build && playwright test e2e/raster.spec.ts e2e/visual-edge-cases.spec.ts --workers=1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.4.3",
+    "vitest": "^4.1.11"
+  }
+}

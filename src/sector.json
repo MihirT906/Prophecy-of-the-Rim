@@ -1,0 +1,13 @@
+{
+  "width": 160,
+  "height": 120,
+  "cruiseSpeed": 300,
+  "thrust": 1800,
+  "brake": 2200,
+  "asteroids": 60,
+  "planetCount": 4,
+  "orbitSeconds": 900,
+  "trailSeconds": 1.2,
+  "drag": 1.25,
+  "gravity": 95
+}

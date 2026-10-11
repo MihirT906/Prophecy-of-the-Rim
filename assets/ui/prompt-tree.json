@@ -1,0 +1,385 @@
+{
+  "id": "spice-center",
+  "prompt": "Production raster UI art for SPICE / CENTER, a space smuggling game. Early-to-late 1990s Dune computer-game aesthetic, sumptuous skeuomorphic desert-imperial spacecraft hardware. Hand-painted pre-rendered bitmap art, restrained indexed-color shading, visible fine dithering, tactile deep bevels, worn edges. Burnished antique brass, sand-worn bronze, dark carved basalt, tobacco-brown leather, bone inlay, tiny amber and muted turquoise indicator lights. Warm upper-left light, heavy recessed shadows. Ornate yet functional, mysterious, archaic technology. Straight-on orthographic view, no perspective tilt. No modern flat design, no neon cyberpunk, no smooth vector look.",
+  "children": [
+    {
+      "id": "interface",
+      "prompt": "Follow the attached greybox guide exactly as a production layout mask. Its neutral blocks designate component bounds and quiet text-safe interiors. Keep every rectangle in exactly the same position and size. Replace grey with finished materials. All text-safe interiors must stay nearly black, low contrast and uncluttered so the game can draw live text there. Decorative detail belongs in borders. Do not render any labels, letters, numerals, words or watermarks. Flat solid dark background in gutters. Render at 1536 by 1024, preserving guide proportions. Each component is independently cropped; no shadows or ornaments may escape its bounds.",
+      "children": [
+        {
+          "id": "cockpit",
+          "prompt": "A matched set of cockpit instrument housings. Fine ribbed metal edges, inset fasteners, recessed black glass, discreet venting and bone geometric inlay. Narrow horizontal bars need thin borders to maximize usable display area. Radar housing has a rectangular empty dark screen, not a circular dial. Absolutely no baked-in readouts or gauges.",
+          "children": [
+            {
+              "id": "instruments",
+              "output": "cockpit.png",
+              "size": [
+                1536,
+                1024
+              ],
+              "prompt": "Five separate finished components matching the guide: top telemetry rail; bottom command rail; tall radar housing; wide diagnostic panel; narrow acknowledgement plate. Give the radar housing slightly more elaborate brass corner fittings. All five share the same scale of material grain.",
+              "regions": [
+                {
+                  "id": "hudTop",
+                  "rect": [
+                    32,
+                    32,
+                    1472,
+                    128
+                  ],
+                  "border": 12
+                },
+                {
+                  "id": "hudBottom",
+                  "rect": [
+                    32,
+                    192,
+                    1472,
+                    144
+                  ],
+                  "border": 12
+                },
+                {
+                  "id": "radar",
+                  "rect": [
+                    32,
+                    384,
+                    384,
+                    544
+                  ],
+                  "border": 18
+                },
+                {
+                  "id": "diagnostic",
+                  "rect": [
+                    464,
+                    384,
+                    1040,
+                    256
+                  ],
+                  "border": 16
+                },
+                {
+                  "id": "notice",
+                  "rect": [
+                    464,
+                    704,
+                    1040,
+                    192
+                  ],
+                  "border": 12
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "terminals",
+          "prompt": "Large imperial navigation-console housing. A weighty frame of aged brass and dark carved stone, understated geometric relief, beautiful small mechanical corner assemblies. Enclosed center is very dark smoked glass with extremely subtle mottling. Decoration restricted to the perimeter; center stays empty and nearly black.",
+          "children": [
+            {
+              "id": "housing",
+              "output": "terminal.png",
+              "size": [
+                1536,
+                1024
+              ],
+              "prompt": "One single full rectangular housing inside the guide bounds. Only a narrow 24-pixel perimeter may have bright details; the entire central field is blank text-safe near-black. No inner subdivisions, no title plate, no circles, no central illustration. Its edges and corners will be nine-sliced to frame menus, star charts, trading screens and communication consoles.",
+              "regions": [
+                {
+                  "id": "terminal",
+                  "rect": [
+                    24,
+                    24,
+                    1488,
+                    976
+                  ],
+                  "border": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "controls",
+          "prompt": "A consistent mechanical interaction kit from the same spacecraft. Solid beveled rectangular hardware with black central surfaces, bronze surrounds, tiny amber lamps tucked into edge trim. Keep text areas empty and high contrast. A selected control feels physically illuminated; a pressed control feels inset.",
+          "children": [
+            {
+              "id": "widgets",
+              "output": "controls.png",
+              "size": [
+                1536,
+                1024
+              ],
+              "prompt": "Six components aligned exactly to guide: upper-left normal unlit button; upper-right selected button with an amber illuminated inner edge; middle-left pressed deeply recessed button; middle-right disabled dark tarnished button; lower-left inset data well; lower-right portrait-monitor frame with an empty black rectangular center. All buttons blank, no icons or text. Monitor and data well should have thin restrained edges, preserving their huge empty dark centers.",
+              "regions": [
+                {
+                  "id": "button",
+                  "rect": [
+                    32,
+                    32,
+                    704,
+                    160
+                  ],
+                  "border": 14
+                },
+                {
+                  "id": "buttonSelected",
+                  "rect": [
+                    800,
+                    32,
+                    704,
+                    160
+                  ],
+                  "border": 14
+                },
+                {
+                  "id": "buttonPressed",
+                  "rect": [
+                    32,
+                    224,
+                    704,
+                    160
+                  ],
+                  "border": 14
+                },
+                {
+                  "id": "buttonDisabled",
+                  "rect": [
+                    800,
+                    224,
+                    704,
+                    160
+                  ],
+                  "border": 14
+                },
+                {
+                  "id": "well",
+                  "rect": [
+                    32,
+                    448,
+                    704,
+                    544
+                  ],
+                  "border": 18
+                },
+                {
+                  "id": "portrait",
+                  "rect": [
+                    800,
+                    448,
+                    704,
+                    544
+                  ],
+                  "border": 18
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "communications",
+      "prompt": "Animated portrait sprite sheet for a 1990s Dune-style video communication screen. Hand-painted raster character with detailed expressive face and tactile costume, limited palette and fine dithering. Exactly 4 columns by 4 rows of equal 384 by 384 frames in a 1536 by 1536 image. Read cells row-major left to right. Each frame repeats ONE IDENTICAL CHARACTER, IDENTICAL camera, shoulders, costume and plain near-black background. Bust framing, face centered at x=192, eyes near y=150, mouth near y=220 in every tile. No tile gutters, no grid lines, no text, no labels, no borders, no UI. Strong frame-to-frame registration: head does not change size or orientation. Only lips/jaw/eyelids change. Guide rectangles define exact cell bounds, its silhouettes define consistent pose. Row 1 frames 0-3: neutral mouth closed, subtle inhale mouth closed, eyes closed blink mouth closed, eyes reopen mouth closed. Rows 2-4 frames 4-15: phoneme sequence small-open, medium-open, wide-open, medium-open; rounded-O, pursed, teeth-close, small-open; wide-open, rounded-O, medium-open, closed. Never show different characters in the same sheet.",
+      "children": [
+        {
+          "id": "navigator",
+          "prompt": "A mutated Guild navigator suspended in amber spice gas inside a pressure tank. Broad elongated pale head, dark blue eyes, small expressive mouth, delicate breathing tubes, ochre robes. Alien but recognizably human-derived.",
+          "output": "navigator.png",
+          "size": [
+            1536,
+            1536
+          ],
+          "animation": {
+            "columns": 4,
+            "rows": 4,
+            "frameSize": [
+              384,
+              384
+            ],
+            "idle": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "talk": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "regions": [
+            {
+              "id": "navigator",
+              "rect": [
+                0,
+                0,
+                1536,
+                1536
+              ],
+              "border": 1
+            }
+          ]
+        },
+        {
+          "id": "facedancer",
+          "prompt": "A Tleilaxu face dancer with an unsettling subtly asymmetrical pale green-grey human face, high cheekbones, blue-within-blue eyes, sculptural dark collar and hood. Fine organic facial ridges, eerie dignified expression. No gore.",
+          "output": "facedancer.png",
+          "size": [
+            1536,
+            1536
+          ],
+          "animation": {
+            "columns": 4,
+            "rows": 4,
+            "frameSize": [
+              384,
+              384
+            ],
+            "idle": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "talk": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "regions": [
+            {
+              "id": "facedancer",
+              "rect": [
+                0,
+                0,
+                1536,
+                1536
+              ],
+              "border": 1
+            }
+          ]
+        },
+        {
+          "id": "ghola",
+          "prompt": "A human ghola retainer with pale weathered skin, short dark hair, precise metallic silver mechanical eyes, deep charcoal military collar, sparse bronze fittings. Stern and haunted expression, articulated natural mouth. No mask over mouth.",
+          "output": "ghola.png",
+          "size": [
+            1536,
+            1536
+          ],
+          "animation": {
+            "columns": 4,
+            "rows": 4,
+            "frameSize": [
+              384,
+              384
+            ],
+            "idle": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "talk": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "regions": [
+            {
+              "id": "ghola",
+              "rect": [
+                0,
+                0,
+                1536,
+                1536
+              ],
+              "border": 1
+            }
+          ]
+        },
+        {
+          "id": "smuggler",
+          "prompt": "A weathered desert smuggler wearing a sand-brown hood and elaborate aged-brass respirator over the lower face. Blue eyes in shadow. Talking conveyed by opening and closing respirator jaw plates, tiny valve movement, subtle eye and brow expression. Keep hood and shoulders fixed.",
+          "output": "smuggler.png",
+          "size": [
+            1536,
+            1536
+          ],
+          "animation": {
+            "columns": 4,
+            "rows": 4,
+            "frameSize": [
+              384,
+              384
+            ],
+            "idle": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "talk": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          "regions": [
+            {
+              "id": "smuggler",
+              "rect": [
+                0,
+                0,
+                1536,
+                1536
+              ],
+              "border": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

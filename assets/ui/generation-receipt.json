@@ -1,0 +1,62 @@
+{
+  "tool": "built-in image_gen",
+  "batch": "dune-raster-ui-and-portraits-v1",
+  "assets": [
+    {
+      "path": "spice-center/interface/cockpit/instruments",
+      "promptSha256": "da17bc606316986040692a981fa7dd72a0dc5e649903204f4706c4e7e603c1e2",
+      "source": "exec-3d94e735-6784-4246-bfff-e19c68439ea7.png",
+      "original": "generated/cockpit.png",
+      "runtime": "runtime/cockpit.webp",
+      "status": "generated, visually reviewed, integrated"
+    },
+    {
+      "path": "spice-center/interface/terminals/housing",
+      "promptSha256": "2a3f7fa2ba1dcbae761b559ede91933befcaf03a6f01e5b6bcedd4299d12f56b",
+      "source": "exec-84627b5a-05c8-4387-bf83-1ed62b61d34e.png",
+      "original": "generated/terminal.png",
+      "runtime": "runtime/terminal.webp",
+      "status": "generated, visually reviewed, integrated"
+    },
+    {
+      "path": "spice-center/interface/controls/widgets",
+      "promptSha256": "519e070b441cc8f1f763ed3af9e9c434d9cd90f3e76ad3dba22dee715e9d7355",
+      "source": "exec-5492d363-848c-4e52-b4cc-6bc69af4124a.png",
+      "original": "generated/controls.png",
+      "runtime": "runtime/controls.webp",
+      "status": "generated, visually reviewed, integrated"
+    },
+    {
+      "path": "spice-center/communications/navigator",
+      "promptSha256": "1e67314094c4e132d6548cc0f55e1e3a454dff18f3d2353bf3a50b4a9eee5ec6",
+      "source": "exec-ab65a18f-282c-4ec7-8350-f975554f7c71.png",
+      "original": "generated/navigator.png",
+      "runtime": "runtime/navigator.webp",
+      "status": "generated, visually reviewed, integrated"
+    },
+    {
+      "path": "spice-center/communications/facedancer",
+      "promptSha256": "1bd3acdb16ecfeb5fe69a4575f62c5ed05207f02cf3176a41f3aa7e039db17cc",
+      "source": "exec-1cb1441d-0109-429d-bebb-bbc713a2f45d.png",
+      "original": "generated/facedancer.png",
+      "runtime": "runtime/facedancer.webp",
+      "status": "generated, visually reviewed, integrated"
+    },
+    {
+      "path": "spice-center/communications/ghola",
+      "promptSha256": "ab9a04b0912846611c186f232ffcd28116b9cbe63a025498fce3b1a9eaf9485b",
+      "source": "exec-2f3f4e17-ab67-45d0-abe0-e1aa2f93aa86.png",
+      "original": "generated/ghola.png",
+      "runtime": "runtime/ghola.webp",
+      "status": "generated, visually reviewed, integrated"
+    },
+    {
+      "path": "spice-center/communications/smuggler",
+      "promptSha256": "bcdb895399da1ebb7b9e4c66cf628b457a18521c2c9e6b90fe8f5c8b432ca5ab",
+      "source": "exec-b9934e0f-d7c9-40ce-b6b1-08860e0a3dfd.png",
+      "original": "generated/smuggler.png",
+      "runtime": "runtime/smuggler.webp",
+      "status": "generated, visually reviewed, integrated"
+    }
+  ]
+}

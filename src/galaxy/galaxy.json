@@ -1,0 +1,1377 @@
+{
+  "nodes": [
+    {
+      "id": "center",
+      "label": "Galactic Center",
+      "data": {
+        "ring": 0,
+        "angle": -1.5707963267948966,
+        "content": "haunted",
+        "danger": 1
+      }
+    },
+    {
+      "id": "inner-01",
+      "label": "Inner 01",
+      "data": {
+        "ring": 1,
+        "angle": -1.5707963267948966,
+        "content": "haunted",
+        "danger": 2
+      }
+    },
+    {
+      "id": "inner-02",
+      "label": "Inner 02",
+      "data": {
+        "ring": 1,
+        "angle": -0.3141592653589793,
+        "content": "frontier",
+        "danger": 3
+      }
+    },
+    {
+      "id": "inner-03",
+      "label": "Inner 03",
+      "data": {
+        "ring": 1,
+        "angle": 0.9424777960769379,
+        "content": "frontier",
+        "danger": 4
+      }
+    },
+    {
+      "id": "inner-04",
+      "label": "Inner 04",
+      "data": {
+        "ring": 1,
+        "angle": 2.199114857512855,
+        "content": "haunted",
+        "danger": 5
+      }
+    },
+    {
+      "id": "inner-05",
+      "label": "Inner 05",
+      "data": {
+        "ring": 1,
+        "angle": 3.4557519189487724,
+        "content": "frontier",
+        "danger": 1
+      }
+    },
+    {
+      "id": "reach-01",
+      "label": "Reach 01",
+      "data": {
+        "ring": 2,
+        "angle": -1.5707963267948966,
+        "content": "haunted",
+        "danger": 3
+      }
+    },
+    {
+      "id": "reach-02",
+      "label": "Reach 02",
+      "data": {
+        "ring": 2,
+        "angle": -0.7853981633974483,
+        "content": "frontier",
+        "danger": 4
+      }
+    },
+    {
+      "id": "reach-03",
+      "label": "Reach 03",
+      "data": {
+        "ring": 2,
+        "angle": 0.0,
+        "content": "frontier",
+        "danger": 5
+      }
+    },
+    {
+      "id": "reach-04",
+      "label": "Reach 04",
+      "data": {
+        "ring": 2,
+        "angle": 0.7853981633974483,
+        "content": "haunted",
+        "danger": 1
+      }
+    },
+    {
+      "id": "reach-05",
+      "label": "Reach 05",
+      "data": {
+        "ring": 2,
+        "angle": 1.5707963267948966,
+        "content": "frontier",
+        "danger": 2
+      }
+    },
+    {
+      "id": "reach-06",
+      "label": "Reach 06",
+      "data": {
+        "ring": 2,
+        "angle": 2.356194490192345,
+        "content": "frontier",
+        "danger": 3
+      }
+    },
+    {
+      "id": "reach-07",
+      "label": "Reach 07",
+      "data": {
+        "ring": 2,
+        "angle": 3.141592653589793,
+        "content": "haunted",
+        "danger": 4
+      }
+    },
+    {
+      "id": "reach-08",
+      "label": "Reach 08",
+      "data": {
+        "ring": 2,
+        "angle": 3.9269908169872414,
+        "content": "frontier",
+        "danger": 5
+      }
+    },
+    {
+      "id": "veil-01",
+      "label": "Veil 01",
+      "data": {
+        "ring": 3,
+        "angle": -1.5707963267948966,
+        "content": "haunted",
+        "danger": 4
+      }
+    },
+    {
+      "id": "veil-02",
+      "label": "Veil 02",
+      "data": {
+        "ring": 3,
+        "angle": -0.9995976625058433,
+        "content": "frontier",
+        "danger": 5
+      }
+    },
+    {
+      "id": "veil-03",
+      "label": "Veil 03",
+      "data": {
+        "ring": 3,
+        "angle": -0.42839899821678995,
+        "content": "frontier",
+        "danger": 1
+      }
+    },
+    {
+      "id": "veil-04",
+      "label": "Veil 04",
+      "data": {
+        "ring": 3,
+        "angle": 0.14279966607226324,
+        "content": "haunted",
+        "danger": 2
+      }
+    },
+    {
+      "id": "veil-05",
+      "label": "Veil 05",
+      "data": {
+        "ring": 3,
+        "angle": 0.7139983303613167,
+        "content": "frontier",
+        "danger": 3
+      }
+    },
+    {
+      "id": "veil-06",
+      "label": "Veil 06",
+      "data": {
+        "ring": 3,
+        "angle": 1.28519699465037,
+        "content": "frontier",
+        "danger": 4
+      }
+    },
+    {
+      "id": "veil-07",
+      "label": "Veil 07",
+      "data": {
+        "ring": 3,
+        "angle": 1.856395658939423,
+        "content": "haunted",
+        "danger": 5
+      }
+    },
+    {
+      "id": "veil-08",
+      "label": "Veil 08",
+      "data": {
+        "ring": 3,
+        "angle": 2.4275943232284765,
+        "content": "frontier",
+        "danger": 1
+      }
+    },
+    {
+      "id": "veil-09",
+      "label": "Veil 09",
+      "data": {
+        "ring": 3,
+        "angle": 2.99879298751753,
+        "content": "frontier",
+        "danger": 2
+      }
+    },
+    {
+      "id": "veil-10",
+      "label": "Veil 10",
+      "data": {
+        "ring": 3,
+        "angle": 3.569991651806583,
+        "content": "haunted",
+        "danger": 3
+      }
+    },
+    {
+      "id": "veil-11",
+      "label": "Veil 11",
+      "data": {
+        "ring": 3,
+        "angle": 4.141190316095637,
+        "content": "frontier",
+        "danger": 4
+      }
+    },
+    {
+      "id": "rim-01",
+      "label": "Rim 01",
+      "data": {
+        "ring": 4,
+        "angle": -1.5707963267948966,
+        "content": "haunted",
+        "danger": 5
+      }
+    },
+    {
+      "id": "rim-02",
+      "label": "Rim 02",
+      "data": {
+        "ring": 4,
+        "angle": -1.121997376282069,
+        "content": "frontier",
+        "danger": 1
+      }
+    },
+    {
+      "id": "rim-03",
+      "label": "Rim 03",
+      "data": {
+        "ring": 4,
+        "angle": -0.6731984257692414,
+        "content": "frontier",
+        "danger": 2
+      }
+    },
+    {
+      "id": "rim-04",
+      "label": "Rim 04",
+      "data": {
+        "ring": 4,
+        "angle": -0.2243994752564138,
+        "content": "haunted",
+        "danger": 3
+      }
+    },
+    {
+      "id": "rim-05",
+      "label": "Rim 05",
+      "data": {
+        "ring": 4,
+        "angle": 0.2243994752564138,
+        "content": "frontier",
+        "danger": 4
+      }
+    },
+    {
+      "id": "rim-06",
+      "label": "Rim 06",
+      "data": {
+        "ring": 4,
+        "angle": 0.6731984257692414,
+        "content": "frontier",
+        "danger": 5
+      }
+    },
+    {
+      "id": "rim-07",
+      "label": "Rim 07",
+      "data": {
+        "ring": 4,
+        "angle": 1.121997376282069,
+        "content": "haunted",
+        "danger": 1
+      }
+    },
+    {
+      "id": "rim-08",
+      "label": "Rim 08",
+      "data": {
+        "ring": 4,
+        "angle": 1.5707963267948966,
+        "content": "frontier",
+        "danger": 2
+      }
+    },
+    {
+      "id": "rim-09",
+      "label": "Rim 09",
+      "data": {
+        "ring": 4,
+        "angle": 2.019595277307724,
+        "content": "frontier",
+        "danger": 3
+      }
+    },
+    {
+      "id": "rim-10",
+      "label": "Rim 10",
+      "data": {
+        "ring": 4,
+        "angle": 2.4683942278205517,
+        "content": "haunted",
+        "danger": 4
+      }
+    },
+    {
+      "id": "rim-11",
+      "label": "Rim 11",
+      "data": {
+        "ring": 4,
+        "angle": 2.9171931783333793,
+        "content": "frontier",
+        "danger": 5
+      }
+    },
+    {
+      "id": "rim-12",
+      "label": "Rim 12",
+      "data": {
+        "ring": 4,
+        "angle": 3.365992128846206,
+        "content": "frontier",
+        "danger": 1
+      }
+    },
+    {
+      "id": "rim-13",
+      "label": "Rim 13",
+      "data": {
+        "ring": 4,
+        "angle": 3.8147910793590345,
+        "content": "haunted",
+        "danger": 2
+      }
+    },
+    {
+      "id": "rim-14",
+      "label": "Rim 14",
+      "data": {
+        "ring": 4,
+        "angle": 4.263590029871863,
+        "content": "frontier",
+        "danger": 3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "inner-01--inner-02",
+      "label": "Inner 01 / Inner 02",
+      "from": "inner-01",
+      "to": "inner-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "inner-01--center",
+      "label": "Inner 01 / Galactic Center",
+      "from": "inner-01",
+      "to": "center",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "inner-02--inner-03",
+      "label": "Inner 02 / Inner 03",
+      "from": "inner-02",
+      "to": "inner-03",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "inner-02--center",
+      "label": "Inner 02 / Galactic Center",
+      "from": "inner-02",
+      "to": "center",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "inner-03--inner-04",
+      "label": "Inner 03 / Inner 04",
+      "from": "inner-03",
+      "to": "inner-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "inner-03--center",
+      "label": "Inner 03 / Galactic Center",
+      "from": "inner-03",
+      "to": "center",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "inner-04--inner-05",
+      "label": "Inner 04 / Inner 05",
+      "from": "inner-04",
+      "to": "inner-05",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "inner-04--center",
+      "label": "Inner 04 / Galactic Center",
+      "from": "inner-04",
+      "to": "center",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "inner-05--inner-01",
+      "label": "Inner 05 / Inner 01",
+      "from": "inner-05",
+      "to": "inner-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "inner-05--center",
+      "label": "Inner 05 / Galactic Center",
+      "from": "inner-05",
+      "to": "center",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-01--reach-02",
+      "label": "Reach 01 / Reach 02",
+      "from": "reach-01",
+      "to": "reach-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-01--inner-01",
+      "label": "Reach 01 / Inner 01",
+      "from": "reach-01",
+      "to": "inner-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-01--inner-02",
+      "label": "Reach 01 / Inner 02",
+      "from": "reach-01",
+      "to": "inner-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-02--reach-03",
+      "label": "Reach 02 / Reach 03",
+      "from": "reach-02",
+      "to": "reach-03",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-02--inner-02",
+      "label": "Reach 02 / Inner 02",
+      "from": "reach-02",
+      "to": "inner-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-02--inner-01",
+      "label": "Reach 02 / Inner 01",
+      "from": "reach-02",
+      "to": "inner-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-03--reach-04",
+      "label": "Reach 03 / Reach 04",
+      "from": "reach-03",
+      "to": "reach-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-03--inner-02",
+      "label": "Reach 03 / Inner 02",
+      "from": "reach-03",
+      "to": "inner-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-03--inner-03",
+      "label": "Reach 03 / Inner 03",
+      "from": "reach-03",
+      "to": "inner-03",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-04--reach-05",
+      "label": "Reach 04 / Reach 05",
+      "from": "reach-04",
+      "to": "reach-05",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-04--inner-03",
+      "label": "Reach 04 / Inner 03",
+      "from": "reach-04",
+      "to": "inner-03",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-04--inner-02",
+      "label": "Reach 04 / Inner 02",
+      "from": "reach-04",
+      "to": "inner-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-05--reach-06",
+      "label": "Reach 05 / Reach 06",
+      "from": "reach-05",
+      "to": "reach-06",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-05--inner-03",
+      "label": "Reach 05 / Inner 03",
+      "from": "reach-05",
+      "to": "inner-03",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-05--inner-04",
+      "label": "Reach 05 / Inner 04",
+      "from": "reach-05",
+      "to": "inner-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-06--reach-07",
+      "label": "Reach 06 / Reach 07",
+      "from": "reach-06",
+      "to": "reach-07",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-06--inner-04",
+      "label": "Reach 06 / Inner 04",
+      "from": "reach-06",
+      "to": "inner-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-06--inner-05",
+      "label": "Reach 06 / Inner 05",
+      "from": "reach-06",
+      "to": "inner-05",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-07--reach-08",
+      "label": "Reach 07 / Reach 08",
+      "from": "reach-07",
+      "to": "reach-08",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-07--inner-05",
+      "label": "Reach 07 / Inner 05",
+      "from": "reach-07",
+      "to": "inner-05",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-07--inner-04",
+      "label": "Reach 07 / Inner 04",
+      "from": "reach-07",
+      "to": "inner-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-08--reach-01",
+      "label": "Reach 08 / Reach 01",
+      "from": "reach-08",
+      "to": "reach-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-08--inner-05",
+      "label": "Reach 08 / Inner 05",
+      "from": "reach-08",
+      "to": "inner-05",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "reach-08--inner-01",
+      "label": "Reach 08 / Inner 01",
+      "from": "reach-08",
+      "to": "inner-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-01--veil-02",
+      "label": "Veil 01 / Veil 02",
+      "from": "veil-01",
+      "to": "veil-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-01--reach-01",
+      "label": "Veil 01 / Reach 01",
+      "from": "veil-01",
+      "to": "reach-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-01--reach-02",
+      "label": "Veil 01 / Reach 02",
+      "from": "veil-01",
+      "to": "reach-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-02--veil-03",
+      "label": "Veil 02 / Veil 03",
+      "from": "veil-02",
+      "to": "veil-03",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-02--reach-02",
+      "label": "Veil 02 / Reach 02",
+      "from": "veil-02",
+      "to": "reach-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-02--reach-01",
+      "label": "Veil 02 / Reach 01",
+      "from": "veil-02",
+      "to": "reach-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-03--veil-04",
+      "label": "Veil 03 / Veil 04",
+      "from": "veil-03",
+      "to": "veil-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-03--reach-02",
+      "label": "Veil 03 / Reach 02",
+      "from": "veil-03",
+      "to": "reach-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-03--reach-03",
+      "label": "Veil 03 / Reach 03",
+      "from": "veil-03",
+      "to": "reach-03",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-04--veil-05",
+      "label": "Veil 04 / Veil 05",
+      "from": "veil-04",
+      "to": "veil-05",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-04--reach-03",
+      "label": "Veil 04 / Reach 03",
+      "from": "veil-04",
+      "to": "reach-03",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-04--reach-04",
+      "label": "Veil 04 / Reach 04",
+      "from": "veil-04",
+      "to": "reach-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-05--veil-06",
+      "label": "Veil 05 / Veil 06",
+      "from": "veil-05",
+      "to": "veil-06",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-05--reach-04",
+      "label": "Veil 05 / Reach 04",
+      "from": "veil-05",
+      "to": "reach-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-05--reach-03",
+      "label": "Veil 05 / Reach 03",
+      "from": "veil-05",
+      "to": "reach-03",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-06--veil-07",
+      "label": "Veil 06 / Veil 07",
+      "from": "veil-06",
+      "to": "veil-07",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-06--reach-05",
+      "label": "Veil 06 / Reach 05",
+      "from": "veil-06",
+      "to": "reach-05",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-06--reach-04",
+      "label": "Veil 06 / Reach 04",
+      "from": "veil-06",
+      "to": "reach-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-07--veil-08",
+      "label": "Veil 07 / Veil 08",
+      "from": "veil-07",
+      "to": "veil-08",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-07--reach-05",
+      "label": "Veil 07 / Reach 05",
+      "from": "veil-07",
+      "to": "reach-05",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-07--reach-06",
+      "label": "Veil 07 / Reach 06",
+      "from": "veil-07",
+      "to": "reach-06",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-08--veil-09",
+      "label": "Veil 08 / Veil 09",
+      "from": "veil-08",
+      "to": "veil-09",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-08--reach-06",
+      "label": "Veil 08 / Reach 06",
+      "from": "veil-08",
+      "to": "reach-06",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-08--reach-07",
+      "label": "Veil 08 / Reach 07",
+      "from": "veil-08",
+      "to": "reach-07",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-09--veil-10",
+      "label": "Veil 09 / Veil 10",
+      "from": "veil-09",
+      "to": "veil-10",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-09--reach-07",
+      "label": "Veil 09 / Reach 07",
+      "from": "veil-09",
+      "to": "reach-07",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-09--reach-06",
+      "label": "Veil 09 / Reach 06",
+      "from": "veil-09",
+      "to": "reach-06",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-10--veil-11",
+      "label": "Veil 10 / Veil 11",
+      "from": "veil-10",
+      "to": "veil-11",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-10--reach-08",
+      "label": "Veil 10 / Reach 08",
+      "from": "veil-10",
+      "to": "reach-08",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-10--reach-07",
+      "label": "Veil 10 / Reach 07",
+      "from": "veil-10",
+      "to": "reach-07",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-11--veil-01",
+      "label": "Veil 11 / Veil 01",
+      "from": "veil-11",
+      "to": "veil-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-11--reach-08",
+      "label": "Veil 11 / Reach 08",
+      "from": "veil-11",
+      "to": "reach-08",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "veil-11--reach-01",
+      "label": "Veil 11 / Reach 01",
+      "from": "veil-11",
+      "to": "reach-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-01--rim-02",
+      "label": "Rim 01 / Rim 02",
+      "from": "rim-01",
+      "to": "rim-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-01--veil-01",
+      "label": "Rim 01 / Veil 01",
+      "from": "rim-01",
+      "to": "veil-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-01--veil-02",
+      "label": "Rim 01 / Veil 02",
+      "from": "rim-01",
+      "to": "veil-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-02--rim-03",
+      "label": "Rim 02 / Rim 03",
+      "from": "rim-02",
+      "to": "rim-03",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-02--veil-02",
+      "label": "Rim 02 / Veil 02",
+      "from": "rim-02",
+      "to": "veil-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-02--veil-01",
+      "label": "Rim 02 / Veil 01",
+      "from": "rim-02",
+      "to": "veil-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-03--rim-04",
+      "label": "Rim 03 / Rim 04",
+      "from": "rim-03",
+      "to": "rim-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-03--veil-03",
+      "label": "Rim 03 / Veil 03",
+      "from": "rim-03",
+      "to": "veil-03",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-03--veil-02",
+      "label": "Rim 03 / Veil 02",
+      "from": "rim-03",
+      "to": "veil-02",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-04--rim-05",
+      "label": "Rim 04 / Rim 05",
+      "from": "rim-04",
+      "to": "rim-05",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-04--veil-03",
+      "label": "Rim 04 / Veil 03",
+      "from": "rim-04",
+      "to": "veil-03",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-04--veil-04",
+      "label": "Rim 04 / Veil 04",
+      "from": "rim-04",
+      "to": "veil-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-05--rim-06",
+      "label": "Rim 05 / Rim 06",
+      "from": "rim-05",
+      "to": "rim-06",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-05--veil-04",
+      "label": "Rim 05 / Veil 04",
+      "from": "rim-05",
+      "to": "veil-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-05--veil-05",
+      "label": "Rim 05 / Veil 05",
+      "from": "rim-05",
+      "to": "veil-05",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-06--rim-07",
+      "label": "Rim 06 / Rim 07",
+      "from": "rim-06",
+      "to": "rim-07",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-06--veil-05",
+      "label": "Rim 06 / Veil 05",
+      "from": "rim-06",
+      "to": "veil-05",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-06--veil-04",
+      "label": "Rim 06 / Veil 04",
+      "from": "rim-06",
+      "to": "veil-04",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-07--rim-08",
+      "label": "Rim 07 / Rim 08",
+      "from": "rim-07",
+      "to": "rim-08",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-07--veil-06",
+      "label": "Rim 07 / Veil 06",
+      "from": "rim-07",
+      "to": "veil-06",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-07--veil-05",
+      "label": "Rim 07 / Veil 05",
+      "from": "rim-07",
+      "to": "veil-05",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-08--rim-09",
+      "label": "Rim 08 / Rim 09",
+      "from": "rim-08",
+      "to": "rim-09",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-08--veil-06",
+      "label": "Rim 08 / Veil 06",
+      "from": "rim-08",
+      "to": "veil-06",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-08--veil-07",
+      "label": "Rim 08 / Veil 07",
+      "from": "rim-08",
+      "to": "veil-07",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-09--rim-10",
+      "label": "Rim 09 / Rim 10",
+      "from": "rim-09",
+      "to": "rim-10",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-09--veil-07",
+      "label": "Rim 09 / Veil 07",
+      "from": "rim-09",
+      "to": "veil-07",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-09--veil-08",
+      "label": "Rim 09 / Veil 08",
+      "from": "rim-09",
+      "to": "veil-08",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-10--rim-11",
+      "label": "Rim 10 / Rim 11",
+      "from": "rim-10",
+      "to": "rim-11",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-10--veil-08",
+      "label": "Rim 10 / Veil 08",
+      "from": "rim-10",
+      "to": "veil-08",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-10--veil-09",
+      "label": "Rim 10 / Veil 09",
+      "from": "rim-10",
+      "to": "veil-09",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-11--rim-12",
+      "label": "Rim 11 / Rim 12",
+      "from": "rim-11",
+      "to": "rim-12",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-11--veil-09",
+      "label": "Rim 11 / Veil 09",
+      "from": "rim-11",
+      "to": "veil-09",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-11--veil-08",
+      "label": "Rim 11 / Veil 08",
+      "from": "rim-11",
+      "to": "veil-08",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-12--rim-13",
+      "label": "Rim 12 / Rim 13",
+      "from": "rim-12",
+      "to": "rim-13",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-12--veil-10",
+      "label": "Rim 12 / Veil 10",
+      "from": "rim-12",
+      "to": "veil-10",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-12--veil-09",
+      "label": "Rim 12 / Veil 09",
+      "from": "rim-12",
+      "to": "veil-09",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-13--rim-14",
+      "label": "Rim 13 / Rim 14",
+      "from": "rim-13",
+      "to": "rim-14",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-13--veil-10",
+      "label": "Rim 13 / Veil 10",
+      "from": "rim-13",
+      "to": "veil-10",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-13--veil-11",
+      "label": "Rim 13 / Veil 11",
+      "from": "rim-13",
+      "to": "veil-11",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-14--rim-01",
+      "label": "Rim 14 / Rim 01",
+      "from": "rim-14",
+      "to": "rim-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-14--veil-11",
+      "label": "Rim 14 / Veil 11",
+      "from": "rim-14",
+      "to": "veil-11",
+      "data": {
+        "content": "contested-lane"
+      }
+    },
+    {
+      "id": "rim-14--veil-01",
+      "label": "Rim 14 / Veil 01",
+      "from": "rim-14",
+      "to": "veil-01",
+      "data": {
+        "content": "contested-lane"
+      }
+    }
+  ]
+}

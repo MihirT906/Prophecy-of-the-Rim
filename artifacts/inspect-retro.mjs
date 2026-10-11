@@ -1,0 +1,13 @@
+import { chromium } from 'playwright';
+const browser = await chromium.launch({ channel: 'chrome', headless: true });
+const page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
+await page.goto('http://127.0.0.1:5175');
+await page.keyboard.press('Enter'); await page.waitForTimeout(100);
+await page.keyboard.press('Enter'); await page.waitForTimeout(100);
+await page.keyboard.type('Retro'); await page.keyboard.press('Enter'); await page.waitForTimeout(800);
+await page.screenshot({ path: 'artifacts/retro-flight.png' });
+await page.evaluate(() => { const s = window.__state, p = s.voyage.system.planets[0], t = p.phase + s.voyage.elapsed / p.period * Math.PI * 2; s.player.x = s.voyage.system.star.x + Math.cos(t) * p.orbit - 200; s.player.y = s.voyage.system.star.y + Math.sin(t) * p.orbit; });
+await page.waitForTimeout(100); await page.screenshot({ path: 'artifacts/retro-planet.png' });
+await page.evaluate(() => { const s = window.__state, p = s.voyage.system.stations[0]; s.player.x = p.x - 200; s.player.y = p.y; });
+await page.waitForTimeout(100); await page.screenshot({ path: 'artifacts/retro-station.png' });
+await browser.close();
